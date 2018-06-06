@@ -5,7 +5,7 @@
   $role          = 'sample_website'
   $master_ip     = '35.177.8.154'
   $master_url    = 'https://master.inf.puppet.vm:8140/packages/current/install.bash'
-  $instance_name = 'awskit-demo-host'
+  $instance_name = 'awskit-azure-demo-host'
 
   $user_data = @("USERDATA"/L)
     #! /bin/bash
